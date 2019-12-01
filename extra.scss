@@ -1,0 +1,47 @@
+$color: #fa8b0c;
+
+nav {
+    background-color: $color;
+    overflow: hidden;
+}
+
+table th {
+    background-color:$color;
+}
+
+.figure {
+    border: thin $color solid;
+}
+
+.figure {
+    width: 250px;
+    padding: 0.5em;
+    
+    p {
+    text-align: center;
+    }
+}
+
+#header_label {
+    color: $color;
+    font-size: 25px;
+}
+
+.table_header {
+    text-align: center;
+    font-size: 20px;
+    font-family: Lucida Sans Unicode;
+    overflow: hidden;
+}
+
+.page-text {
+    @extend .table_header;
+    padding-left: 16px; 
+    padding-right: 16px;
+}
+
+.list-header {
+    @extend .table_header;
+    text-align: left;
+    text-decoration: underline;
+}
