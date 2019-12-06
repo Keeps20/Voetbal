@@ -1,0 +1,42 @@
+nav {
+  background-color: #fa8b0c;
+  overflow: hidden;
+}
+
+table th {
+  background-color: #fa8b0c;
+}
+
+.figure {
+  border: thin #fa8b0c solid;
+}
+
+.figure {
+  width: 250px;
+  padding: 0.5em;
+}
+.figure p {
+  text-align: center;
+}
+
+#header_label {
+  color: #fa8b0c;
+  font-size: 25px;
+}
+
+.table_header, .list-header, .page-text {
+  text-align: center;
+  font-size: 15px;
+  font-family: Lucida Sans Unicode;
+  overflow: hidden;
+}
+
+.page-text {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.list-header {
+  text-align: left;
+  text-decoration: underline;
+}

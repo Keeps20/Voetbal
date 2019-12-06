@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    Uitslagen
+{% endblock %}
+
+{% block body %}
+    <table>
+        <tr>
+            <th>Datum</th>
+            <th>Tijd</th>
+            <th>Wedstrijd</th>
+        </tr>
+        
+        {% for key, value in game.items() %}
+            <tr>
+                {% for key2, value2 in value.items() %}
+                    {% if key2 == "wedstrijd" %}
+                        <td>{{ value2[0] }} - {{ value2[1] }}</td>
+                    {% else %}
+                        <td>{{ value2 }}</td>
+                    {% endif %}
+                {% endfor %}
+            </tr>
+        {% endfor %} 
+    </table>
+{% endblock %}
